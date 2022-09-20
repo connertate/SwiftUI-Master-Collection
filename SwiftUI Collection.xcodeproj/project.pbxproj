@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4462300028D8F5E6000254AB /* iOS_Slide_To_Unlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44622FFF28D8F5E6000254AB /* iOS_Slide_To_Unlock.swift */; };
 		44C4AE3828CA7208008DBB94 /* SwiftUI_CollectionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C4AE3728CA7208008DBB94 /* SwiftUI_CollectionApp.swift */; };
 		44C4AE3A28CA7208008DBB94 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C4AE3928CA7208008DBB94 /* ContentView.swift */; };
 		44C4AE3C28CA7209008DBB94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44C4AE3B28CA7209008DBB94 /* Assets.xcassets */; };
 		44C4AE3F28CA7209008DBB94 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44C4AE3E28CA7209008DBB94 /* Preview Assets.xcassets */; };
+		44C4AE4728CA726C008DBB94 /* Youtube_Subscribe_Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C4AE4628CA726C008DBB94 /* Youtube_Subscribe_Button.swift */; };
+		44C4AE4928CA78DB008DBB94 /* Instagram_Like_Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C4AE4828CA78DB008DBB94 /* Instagram_Like_Button.swift */; };
+		44C4AE4B28CA7FF7008DBB94 /* Tiktok_Like_Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C4AE4A28CA7FF7008DBB94 /* Tiktok_Like_Button.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		44622FFF28D8F5E6000254AB /* iOS_Slide_To_Unlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Slide_To_Unlock.swift; sourceTree = "<group>"; };
 		44C4AE3428CA7208008DBB94 /* SwiftUI Collection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Collection.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44C4AE3728CA7208008DBB94 /* SwiftUI_CollectionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_CollectionApp.swift; sourceTree = "<group>"; };
 		44C4AE3928CA7208008DBB94 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		44C4AE3B28CA7209008DBB94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44C4AE3E28CA7209008DBB94 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		44C4AE4628CA726C008DBB94 /* Youtube_Subscribe_Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Youtube_Subscribe_Button.swift; sourceTree = "<group>"; };
+		44C4AE4828CA78DB008DBB94 /* Instagram_Like_Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instagram_Like_Button.swift; sourceTree = "<group>"; };
+		44C4AE4A28CA7FF7008DBB94 /* Tiktok_Like_Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tiktok_Like_Button.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +40,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		44622FFE28D8F5AA000254AB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				44622FFF28D8F5E6000254AB /* iOS_Slide_To_Unlock.swift */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
 		44C4AE2B28CA7208008DBB94 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +70,8 @@
 				44C4AE3728CA7208008DBB94 /* SwiftUI_CollectionApp.swift */,
 				44C4AE3928CA7208008DBB94 /* ContentView.swift */,
 				44C4AE3B28CA7209008DBB94 /* Assets.xcassets */,
+				44622FFE28D8F5AA000254AB /* iOS */,
+				44C4AE4528CA723B008DBB94 /* Buttons */,
 				44C4AE3D28CA7209008DBB94 /* Preview Content */,
 			);
 			path = "SwiftUI Collection";
@@ -65,6 +83,16 @@
 				44C4AE3E28CA7209008DBB94 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		44C4AE4528CA723B008DBB94 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				44C4AE4628CA726C008DBB94 /* Youtube_Subscribe_Button.swift */,
+				44C4AE4828CA78DB008DBB94 /* Instagram_Like_Button.swift */,
+				44C4AE4A28CA7FF7008DBB94 /* Tiktok_Like_Button.swift */,
+			);
+			path = Buttons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +165,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4462300028D8F5E6000254AB /* iOS_Slide_To_Unlock.swift in Sources */,
 				44C4AE3A28CA7208008DBB94 /* ContentView.swift in Sources */,
+				44C4AE4B28CA7FF7008DBB94 /* Tiktok_Like_Button.swift in Sources */,
 				44C4AE3828CA7208008DBB94 /* SwiftUI_CollectionApp.swift in Sources */,
+				44C4AE4728CA726C008DBB94 /* Youtube_Subscribe_Button.swift in Sources */,
+				44C4AE4928CA78DB008DBB94 /* Instagram_Like_Button.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
